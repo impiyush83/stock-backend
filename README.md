@@ -668,7 +668,7 @@ db.stockupdates.find({'stockId': "INFY", 'tradedAt': {$gte: new Date(new Date() 
 
 --- 
 
-We can create cache data for the standard queries such as 1M, 5M, MAX time duration. A cron job will do the job of updating the cache. For fallback pattern if the key is not present in the cache,we will hit the mongo db to fetch the results. 
+**We can create cache data for the standard queries such as 1M, 5M, MAX time duration. A cron job will do the job of updating the cache. For fallback pattern if the key is not present in the cache,we will hit the mongo db to fetch the results.**
  
 
 ---
