@@ -1,0 +1,10 @@
+[
+    {
+        "stockId": "INFY",
+        "stockName": "Infosys"
+    },
+    {
+        "stockId": "TCS",
+        "stockName": "Tata Communication Services"
+    }
+]
